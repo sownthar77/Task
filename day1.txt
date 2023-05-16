@@ -1,0 +1,15 @@
+1.  Difference between HTTP1.1 vs HTTP2
+ 1.1. HTTP 1.1:
+    - HTTP/1.1, only one request/response can be sent over a single connection at a time. 
+    - HTTP/1.1 uses a text-based protocol, which is human-readable but not very efficient in terms of data transmission.
+    - In HTTP/1.1, each request/response cycle requires establishing and tearing down a separate connection.
+ 1.2. HTTP 2 :
+    - HTTP/2 allows multiple requests/responses to be sent concurrently over the same connection, resulting in improved efficiency and reduced latency.
+    - HTTP/2, on the other hand, uses a binary protocol, which allows for more compact and efficient data encoding, resulting in faster data transfer.
+    - HTTP/2 includes header compression mechanisms, such as the HPACK algorithm, which reduce the overhead of transmitting headers with each request and response. 
+
+2. Objects and its Internal representation in Javascript :
+    - Objects in JavaScript are collections of key-value pairs, where the keys are strings and the values can be any data type, including other objects.
+    - Internally, objects in JavaScript are typically implemented using hash tables or similar data structures to provide efficient access and manipulation of properties. When an object is created, memory is allocated to store its properties and methods.
+    - JavaScript objects are dynamic, meaning you can add, modify, or delete properties and methods of an object even after it is created. This flexibility allows for dynamic and adaptable data structures.
+    
