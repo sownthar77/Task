@@ -1,0 +1,14 @@
+Difference between Document and Window Object:
+    1. Window Object :
+        - Window object environment is Browser.
+        - It is the very first object that is loaded in the browser.
+        - Global objects, functions, and variables of JavaScript are members of the window object.
+        - Properties of the window object cannot be accessed by the document object.
+        - syntax: window.propertyname;
+    
+    2. Document Object :
+    - Document object environment is Node JS.
+    - It represents any HTML document or web page that is loaded in the browser.
+    - It is loaded inside the window and it is the object of window property.
+    - Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title
+    - syntax: document.propertyname;
